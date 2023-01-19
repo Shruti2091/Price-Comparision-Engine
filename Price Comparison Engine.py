@@ -16,6 +16,7 @@ labelimg.place(x=0, y=0)
 class Price_compare:
 
     def __init__(self, master):
+        print("coming")
 
         def shift():
             x1,y1,x2,y2 = canvas.bbox("marquee")
