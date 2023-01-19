@@ -17,7 +17,8 @@ class Price_compare:
 
     def __init__(self, master):
         print("coming")
-
+        print("First Change")
+        print("Third Change")
         def shift():
             x1,y1,x2,y2 = canvas.bbox("marquee")
             if(x2<0 or y1<0): #reset the coordinates
