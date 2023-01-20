@@ -1,11 +1,11 @@
-print("Wohooo Learned the git!!!!!")
+
 from tkinter import *
 from bs4 import BeautifulSoup
 import requests
 from difflib import get_close_matches
 import webbrowser
 from collections import defaultdict
-#I added a comment number 1
+
 root = Tk()
 root.geometry("654x487+450+150")
 root.config(bg='grey')
@@ -63,7 +63,6 @@ class Price_compare:
         webbrowser.open(link)
 
     def vst_electronis(self):
-        print("Last Push")
         link='https://www.flipkart.com/audio-video/~cs-53mrbtcuf5/pr?sid=0pm&collection-tab-name=Audio+And+Video&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&fm=neo%2Fmerchandising&iid=M_b1792f37-20d1-4e3d-8f2b-15d3ea7a84e5_1_372UD5BXDFYS_MC.9JGNW7M0TUHD&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Electronics~Audio~All_9JGNW7M0TUHD&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=9JGNW7M0TUHD' 
         webbrowser.open(link)
 
